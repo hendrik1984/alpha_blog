@@ -7,18 +7,5 @@ Things you may want to cover:
 
 * Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Bootstrap configuration
+https://dev.to/superails/install-bootstrap-5-with-ruby-on-rails-6-replace-bootstrap-4-2bf9
