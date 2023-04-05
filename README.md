@@ -10,6 +10,9 @@ Things you may want to cover:
 * Bootstrap configuration
 https://dev.to/superails/install-bootstrap-5-with-ruby-on-rails-6-replace-bootstrap-4-2bf9
 
+* build homepage with sticky footer
+https://startbootstrap.com/snippets/sticky-footer-flexbox
+
 * has_secure_password
 https://api.rubyonrails.org/v7.0.4/classes/ActiveModel/SecurePassword/ClassMethods.html#method-i-has_secure_password
 
