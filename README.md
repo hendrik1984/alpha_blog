@@ -12,3 +12,6 @@ https://dev.to/superails/install-bootstrap-5-with-ruby-on-rails-6-replace-bootst
 
 * has_secure_password
 https://api.rubyonrails.org/v7.0.4/classes/ActiveModel/SecurePassword/ClassMethods.html#method-i-has_secure_password
+
+* ruby gravatar
+https://en.gravatar.com/site/implement/images/ruby/
