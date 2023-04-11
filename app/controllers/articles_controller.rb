@@ -19,7 +19,7 @@ class ArticlesController < ApplicationController
         @article.user = current_user
         if @article.save
             # redirect_to article_path(@article) # commonly use
-            flash[:notice] = "Article was created succesffuly."
+            flash[:notice] = "Article was created successfully."
             redirect_to @article # shortcut
             # render plain: @article.inspect
         else
@@ -58,7 +58,7 @@ class ArticlesController < ApplicationController
     end
 
     def require_same_user
-        if current_user != @article.user
+        if current_user != @article.user && !current_user.admin?
           flash[:alert] = "You can only edit or delete your own article"
           redirect_to @article
         end  
